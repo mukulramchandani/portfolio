@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+.backgroundMajor {
+  background-color:#FEC9C2;
+  width: auto;
+  height: stretch;
+  content: "";
+  background-attachment: scroll;
+  
+
+}
+
+.backgroundClip{
+  background-color:#FFFE9C;
+  width: auto;
+  height: stretch;
+  background-attachment: scroll;
+  clip-path: polygon(20% 0, 100% 0%, 100% 100%, 84% 100%);
+;
+}
+
+.nameInfo {
+  position: absolute;
+  top: 15%;
+  font-size: 6em;
+  display: block;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 11px;
+  margin-left: 15%;
+  color: #4c3d6d;
+}
+
+@media screen and (max-width : 500px) {
+  .nameInfo {
+    position: absolute;
+    top: 15%;
+    font-size: 3em;
+    display: block;
+    font-family: 'Luckiest Guy', cursive;
+    padding: 11px;
+    margin-left: 15%;
+    color: #4c3d6d;
+  }
+}
